@@ -8,23 +8,34 @@ green blue light: #BBFFB8
 */
 body {
     background-color: none;
-    color:#FF9E95;
+    color:#AB92E8;
 }
 
 #header {
     width:100%;
-    background-color:beige;
+    background-color:none;
+    min-height: 80px;
 }
 
 #header >h1 {
     margin:0;
+    text-align: center;
+    font-family:'lato', sans-serif;
+    position: relative;
+    transform:translateY(50%);
 }
 
 #nav {
     width:100%;
-    background-color:aqua;
+    background-color:#AB92E8;
+    min-height: 80px;
+    font-family:'lato', sans-serif;
+    height: auto;
 }
-
+#nav > ul {
+    
+    
+}
 .menu{
     display:flex;
     background-color:#d7e6f;
@@ -48,7 +59,7 @@ body {
 }
 
 footer{
-    background-color:coral;
+    background-color:black;
     margin:0;   
 }
 
