@@ -7,7 +7,7 @@ brown: #5B533B
 green blue light: #BBFFB8
 */
 body {
-    background-color: none;
+    background-color:#BBFFB8;
     color:#AB92E8;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #nav {
     width:100%;
-    background-color:#AB92E8;
+    background-color:#BBFFB8;
     min-height: 80px;
     font-family:'lato', sans-serif;
     height: auto;
@@ -42,8 +42,8 @@ body {
 
 #nav > ul > button {
     min-width:120px;
-    color:#FF9E95;
-    background-color:#BBFFB8;
+    color:#AB92E8;
+    background-color:#ffaea7;
     border:none;
     padding: 15px 32px;
     transition: background-color .25s;
@@ -51,7 +51,8 @@ body {
 }
 .menu{
     display:flex;
-    background-color:#d7e6f;
+    background-color:#AB92E8
+;
     justify-content:space-around;
     list-style-type:none;
     margin:0;
@@ -62,7 +63,8 @@ body {
 }
 
 #main-content-wrapper {
-    background-color:greenyellow;
+    background-color:#BBFFB8
+;
     width: 80%;
 }
 
