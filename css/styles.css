@@ -37,7 +37,17 @@ body {
     padding: 0;
     margin: 0;
     transform: translateY(50%);
-    
+        
+}
+
+#nav > ul > button {
+    min-width:120px;
+    color:#FF9E95;
+    background-color:#BBFFB8;
+    border:none;
+    padding: 15px 32px;
+    transition: background-color .25s;
+
 }
 .menu{
     display:flex;
