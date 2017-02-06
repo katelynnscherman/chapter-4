@@ -52,23 +52,33 @@ body {
 }
 
 
+/*
 .menu{
     display:flex;
-    background-color:#AB92E8
-;
+    background-color:#AB92E8;
     justify-content:space-around;
     list-style-type:none;
     margin:0;
-}
 
-#middle-wrapper{
+}
+*/
+#middle-wrapper-width {
     display:flex;
+    font-family: 'lato', sams-serif;
+    max-width:960x;
+    margin:0 auto;
 }
-
-#main-content-wrapper {
-    background-color:#BBFFB8
-;
-    width: 80%;
+#middle-wrapper{
+    
+}
+.side-by-side{
+    display:flex;
+    
+}
+#main-content-wrapper .image-content {
+    text-align:center;
+    width:50%;
+    margin-top:50px;
 }
 
 #aside-content-wrapper{
