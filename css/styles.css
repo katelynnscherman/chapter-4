@@ -7,7 +7,7 @@ brown: #5B533B
 green blue light: #BBFFB8
 */
 body {
-    background-color:#BBFFB8;
+    background-color:lightgrey;
     color:#AB92E8;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #nav {
     width:100%;
-    background-color:#BBFFB8;
+    background-color:lightcyan;
     min-height: 80px;
     font-family:'lato', sans-serif;
     height: auto;
@@ -42,13 +42,13 @@ body {
 #nav > ul > button {
     min-width:120px;
     color:#AB92E8;
-    background-color:#ffaea7;
+    background-color:black;
     border:none;
     padding: 15px 32px;
     transition: background-color .25s;
 }
 #nav > ul > button:hover {
-   background-color:palevioletred;
+   background-color:darkturquoise;
 }
 
 
@@ -75,19 +75,64 @@ body {
     display:flex;
     
 }
+
 #main-content-wrapper .image-content {
     text-align:center;
     width:50%;
     margin-top:50px;
 }
 
+.image-content > img { 
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.image-content > h4 {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color: #ABFFF8;
+}
+
+.image-content > h4> a {
+   color:darkblue;
+  }
+
+.image-content > h4> a:hover {
+   color:dodgerblue;
+  }
+
+#main-content-wrapper article {
+    width:50%;
+    margin-top:100px;
+}
+
+#main-content-wrapper article h2 {
+  text-align:center;
+}
+
+#main-content-wrapper article p {
+    max-width:300px;
+    margin-top:o auto;
+}
+
+#main-content-wrapper #skills {
+    text-align:center;
+    font-weight:300;
+    letter-spacing: 2px;
+}
+
+#main-content-wrapper #skills span {
+    font-weight:400;
+   }
+
 #aside-content-wrapper{
-    background-color:plum;
-    width:20%;
+    background-color:white;
+    width:35%;
+    font-family: 'lato', sans-serif;
 }
 
 footer{
-    background-color:black;
+    background-color:lightcyan;
     margin:0;   
 }
 
