@@ -131,6 +131,23 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+#aside-right {
+    margin: 0 50px 0 8px;
+}
+
+#aside-right h3 {
+    text-align:center;
+}
+
+#latest-work {
+    list-style-type: none;   
+}
+
+#latest-work > li {
+  
+}
+
+
 footer{
     background-color:lightcyan;
     margin:0;   
